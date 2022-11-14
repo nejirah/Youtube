@@ -1,0 +1,235 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    width:100px;
+}
+
+#jedan{
+    display: flex;
+    width: 25%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#282828;
+}
+#jedan i{
+    padding: 30px;
+}
+
+#dva{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    background-color:#282828 ;
+}
+
+#dva #search{
+    width: 80%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    border: 1px solid gray;
+    background-color:#000 ;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#dva #search p{
+    margin-left: 2px;
+}
+
+#dva #search_icon{
+    width: 10%;
+    height: 50%;
+    padding: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 79, 79);
+    border: 1px solid gray;
+}
+
+#tri{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 25%;
+    background-color:#282828;
+}
+
+#tri i{
+    padding-right: 20px;
+}
+
+article{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    flex-direction: row;
+}
+section{
+    display: flex;
+    min-height: 100vh;
+    width: 15%;
+    background-color: #282828;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.options{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    background-color:#282828;
+    color: white;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.options:hover{
+   background-color: gray;
+   cursor: pointer;
+}
+.options p{
+    padding-left:30px ;
+}
+
+.options i{
+    font-size: 25px;
+    padding-left: 20px;
+}
+
+.main{
+    width: 85%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+
+}
+
+.tag{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #282828;
+    justify-content: start;
+    color:white;
+    align-items: center;
+    padding-top:10px;
+    padding-bottom: 10px;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+
+}
+
+.tag div{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 100px;
+    height: 30px;
+    width: 130px;
+    justify-content: center;
+    align-items: center;
+    margin-right: 7px;
+    margin-left: 2px;
+    background-color: rgb(80, 79, 79);
+}
+
+.tag .white_tag{
+    background-color: #fff;
+    color: black;
+    width: 200px;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(37, 36, 36);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.video #recomended{
+    color:white;
+    margin-left: 30px;
+    margin-top: 40px;
+    font-size: 20pt;
+}
+.video .pozicije{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.video .pozicije .vv{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 25px;
+    margin-top: 0px;
+    text-decoration: none;
+
+}
+
+.video .pozicije .vv .ytkanal{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+.video .pozicije .vv .ytkanal strik{
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 200px;
+    margin-right: 20px;
+}
+.video .pozicije .vv .ytkanal .teto{
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+}
+.video .pozicije .vv .ytkanal .teto p span{
+    font-size: 10pt;
+}
+.video .pozicije .vv p{
+    margin: 0;
+    color: #fff
+}
+
+footer{
+    display: none;
+}
+
